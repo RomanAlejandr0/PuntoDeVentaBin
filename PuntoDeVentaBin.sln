@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35327.3
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PuntoDeVentaBin.Server", "PuntoDeVentaBin\Server\PuntoDeVentaBin.Server.csproj", "{3EFA8CF3-2395-4D37-A9B3-9684DE62693F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PuntoDeVentaBin.Server", "PuntoDeVentaBin\Server\PuntoDeVentaBin.Server.csproj", "{3EFA8CF3-2395-4D37-A9B3-9684DE62693F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PuntoDeVentaBin.Client", "PuntoDeVentaBin\Client\PuntoDeVentaBin.Client.csproj", "{7275502A-5BCF-4BA3-9C7F-BB39DAB17EBB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PuntoDeVentaBin.Client", "PuntoDeVentaBin\Client\PuntoDeVentaBin.Client.csproj", "{7275502A-5BCF-4BA3-9C7F-BB39DAB17EBB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PuntoDeVentaBin.Shared", "PuntoDeVentaBin\Shared\PuntoDeVentaBin.Shared.csproj", "{B04BDF5C-7EFF-4979-ADFC-45FE6CFCDA82}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PuntoDeVentaBin.Shared", "PuntoDeVentaBin\Shared\PuntoDeVentaBin.Shared.csproj", "{B04BDF5C-7EFF-4979-ADFC-45FE6CFCDA82}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

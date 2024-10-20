@@ -9,13 +9,18 @@
     <InputText class="form-control" @bind-Value="usuario.Nombre" />
     <ValidationMessage For="(() => usuario.Nombre)"/>
 
+    <InputText class="form-control" @bind-Value="usuario.Email" />
+    <ValidationMessage For="(() => usuario.Email)" />
+
+    <InputText class="form-control" @bind-Value="usuario.Password" />
+    <ValidationMessage For="(() => usuario.Password)" />
 
         <button class="btn btn-primary" type="submit">Enviar</button>
 </EditForm>
 
 
 @code{
-    Usuario usuario = new Usuario();
+    UsuarioBin usuario = new UsuarioBin();
 
     protected async Task Enviar()
     {

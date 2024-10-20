@@ -7,7 +7,7 @@ namespace PuntoDeVentaBin.Shared.Identidades
         [Key]
         public long Id { get; set; }
 
-        [Required(ErrorMessage = "El mombre es obligatorio")]
+        [Required(ErrorMessage = "El nombre es obligatorio")]
         [StringLength(100, ErrorMessage = "Limite de caracteres: 100.")]
         public string Nombre { get; set; }
 
